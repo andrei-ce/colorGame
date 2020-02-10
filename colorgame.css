@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(27, 30, 43);
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+  background-color: rgb(106, 90, 205);
+  margin: 0;
+  padding: 20px 0;
+}
+h1 span{
+  display: block;
+  font-weight: lighter;
+  font-size: 2em;
+}
+.square {
+  width: 30%;
+  background: palevioletred;
+  padding-bottom: 30%; /*this is just to have content on divs, and that it becomes a square (30% width = 30% padding-bottom*/
+  float: left;
+  margin: 1.66%;
+  border-radius: 10%;
+  transition: background 0.7s;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+}
+
+.selected {
+  color: white;
+  background-color: rgb(106, 90, 205);
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(106, 90, 205);
+}
+
+button {
+  color: rgb(106, 90, 205);
+  background: none;
+  height: 100%;
+  border: none;
+  text-transform: uppercase;
+  font-size: inherit;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  outline: none;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+  color: rgb(85, 85, 85)
+}
+
+#container {
+  max-width: 600px;
+  margin: 4% auto 4% auto;
+}
+
+#stripe {
+  background-color: white;
+  text-align: center;
+  height: 30px;
+  color: black;
+}
